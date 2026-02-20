@@ -14,9 +14,7 @@ class Program
 {
     static void Main()
     {
-        // ================================
         // TASK 1: Driver Profile & Distance Validation
-        // ================================
 
         // string is used for text data like names
         string driverName;
@@ -45,9 +43,7 @@ class Program
             totalDistance = double.Parse(Console.ReadLine());
         }
 
-        // ================================
         // TASK 2: Fuel Expense Tracking
-        // ================================
 
         // 1D array to store 5 days of fuel expenses
         decimal[] fuelExpenses = new decimal[5];
@@ -66,9 +62,7 @@ class Program
             totalFuelSpent += fuelExpenses[i];
         }
 
-        // ================================
         // TASK 3: Performance Analysis
-        // ================================
 
         // compute average daily fuel expense
         decimal averageDailyExpense = totalFuelSpent / fuelExpenses.Length;
@@ -95,9 +89,7 @@ class Program
         // bool used to check if spending is within budget
         bool isUnderBudget = totalFuelSpent <= weeklyFuelBudget;
 
-        // ================================
         // TASK 4: Audit Report
-        // ================================
 
         Console.WriteLine("\n===== CODAC LOGISTICS AUDIT REPORT =====");
         Console.WriteLine($"Driver Name: {driverName}");
