@@ -1,6 +1,6 @@
 /*
  * Prelim Activity 01: Codac Logistics Delivery & Fuel Auditor
- * By: Justin Louise Neypes
+ * By: Justine Marcella
  *
  * Description:
  * This console-based application tracks a delivery driver's fuel expenses
@@ -110,4 +110,5 @@ class Program
         Console.WriteLine("\nPress any key to exit...");
         Console.ReadKey();
     }
+
 }
